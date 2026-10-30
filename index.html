@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Suraksha AI – Factory Safety Companion</title>
+    <meta name="description" content="Multilingual industrial factory safety companion providing voice-guided PPE, fire, machine LOTO, electrical, and emergency protocols with shopfloor kiosk mode and supervisor safety analytics." />
+    <meta property="og:title" content="Suraksha AI – Factory Safety Companion" />
+    <meta property="og:description" content="Multilingual industrial factory safety companion providing voice-guided PPE, fire, machine LOTO, electrical, and emergency protocols with shopfloor kiosk mode and supervisor safety analytics." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-900 text-slate-100 antialiased selection:bg-orange-500 selection:text-white">
+    <script>
+      // In AI Studio preview environment, HMR WebSocket is disabled
+      window.addEventListener('unhandledrejection', function (e) {
+        if (
+          e.reason &&
+          (typeof e.reason === 'string'
+            ? e.reason.includes('WebSocket')
+            : e.reason.message?.includes('WebSocket') || e.reason.toString?.().includes('WebSocket'))
+        ) {
+          e.preventDefault();
+        }
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

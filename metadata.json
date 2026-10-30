@@ -1,0 +1,6 @@
+{
+  "name": "Suraksha AI – Factory Safety Companion",
+  "description": "Multilingual industrial factory safety companion providing voice-guided PPE, fire, machine LOTO, electrical, and emergency protocols with shopfloor kiosk mode and supervisor safety analytics.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
